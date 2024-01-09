@@ -42,7 +42,7 @@ services:
     build: ./scrum-ui
     container_name: scrum-ui
     ports:
-      - 4200:81
+      - 4200:80
     links:
       - scrum-app
 
